@@ -65,10 +65,10 @@ if(toppingCount<3){
 //---------------------------------------------------------------------
 // valid payment
 // En 2 instructions
-var laListe = document.getElementsByClassName("payment").options; 
-var optionSelectionnee = document.getElementById("payment").selectedIndex;
+var laListe = document.getElementsByClassName("payment").options; // on regarde les objets de type options (plusieurs paramètres y sont inclus)
+var optionSelectionnee = document.getElementById("payment").selectedIndex; // on regarde là où l'on a cliqué
 console.log(optionSelectionnee);
-var optionPaiement = laListe[optionSelectionnee].value;
+var optionPaiement = laListe[optionSelectionnee].value;  // on regarde la valeur String contenue à l'intérieur
 
 
 

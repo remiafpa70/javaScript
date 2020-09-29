@@ -1,0 +1,8 @@
+{
+    "name": "com.remi.tp.jour.nuit",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "77011-53-12",
+    "contributors": [],
+    "dependencies": {}
+}
